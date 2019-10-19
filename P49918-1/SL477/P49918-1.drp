@@ -1,0 +1,7 @@
+PFRMAT DR
+TARGET P49918-1
+AUTHOR DisPredict: Sumaiya Iqbal and Md Tamjidul Hoque
+REMARK SVM
+METHOD SVM (SL477)
+MODEL  1
+END

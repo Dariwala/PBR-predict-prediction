@@ -1,0 +1,71 @@
+Peptide-Binding Residue Prediction
+TARGET test_1
+AUTHOR PBRpredict: Sumaiya Iqbal and Md Tamjidul Hoque, Output: AA B/N Peptide-Binding-Probability(0.5 - 1.0)
+REMARK SVM(0.17),GBC(0.21),KNN(0.21),LogReg(0.20) - Liberal Thresholds for Flexible Prediction
+METHOD Stacking (B = binding, N = Non-binding)
+MODEL  1 
+E  n  0.486964
+N  n  0.257023
+E  b  0.535438
+M  b  0.700937
+D  b  0.724750
+E  b  0.702625
+N  b  0.663000
+L  b  0.629312
+E  b  0.557250
+Q  n  0.442079
+V  n  0.373874
+S  n  0.383403
+G  n  0.281095
+I  n  0.254264
+I  n  0.396943
+G  n  0.295639
+N  b  0.580250
+L  b  0.580937
+R  b  0.645937
+H  b  0.647250
+M  b  0.703875
+A  b  0.746625
+L  b  0.753875
+D  b  0.677687
+M  b  0.738125
+G  b  0.818438
+N  b  0.794938
+E  b  0.788625
+I  b  0.778188
+D  b  0.794125
+T  b  0.818375
+Q  b  0.785937
+N  b  0.871125
+R  b  0.823438
+Q  b  0.817187
+I  b  0.818875
+D  b  0.815063
+R  b  0.823875
+I  b  0.700625
+M  b  0.817063
+E  b  0.632125
+K  b  0.588500
+A  b  0.692125
+D  b  0.675125
+S  b  0.616563
+N  n  0.365348
+K  b  0.609875
+T  b  0.572562
+R  n  0.464145
+I  n  0.390424
+D  n  0.305669
+E  b  0.537500
+A  b  0.603500
+N  b  0.708688
+Q  b  0.704500
+R  b  0.692937
+A  b  0.761312
+T  b  0.726750
+K  b  0.722750
+M  b  0.667875
+L  b  0.631312
+G  b  0.536375
+S  n  0.376883
+G  b  0.578063
+END

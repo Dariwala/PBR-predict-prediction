@@ -1,0 +1,71 @@
+Peptide-Binding Residue Prediction
+TARGET test_1
+AUTHOR PBRpredict: Sumaiya Iqbal and Md Tamjidul Hoque, Output: AA B/N Peptide-Binding-Probability(0.5 - 1.0)
+REMARK SVM(0.5),GBC(0.5),KNN(0.5),LogReg(0.5) - Standard Thresholds for Strict Prediction
+METHOD Stacking (B = binding, N = Non-binding)
+MODEL  1 
+E  n  0.1086
+N  n  0.1158
+E  n  0.1563
+M  n  0.3972
+D  n  0.4770
+E  n  0.3779
+N  n  0.3272
+L  n  0.2423
+E  n  0.1603
+Q  n  0.1120
+V  n  0.1276
+S  n  0.1470
+G  n  0.1165
+I  n  0.1143
+I  n  0.1053
+G  n  0.1112
+N  n  0.2064
+L  n  0.1847
+R  n  0.3243
+H  n  0.3001
+M  n  0.4269
+A  b  0.5696
+L  b  0.5710
+D  n  0.4003
+M  n  0.4914
+G  b  0.7742
+N  b  0.7034
+E  b  0.6879
+I  b  0.6630
+D  b  0.6987
+T  b  0.7331
+Q  b  0.6910
+N  b  0.8666
+R  b  0.7717
+Q  b  0.7487
+I  b  0.7560
+D  b  0.7584
+R  b  0.7548
+I  n  0.4222
+M  b  0.7032
+E  n  0.2594
+K  n  0.1899
+A  n  0.3792
+D  n  0.4358
+S  n  0.2445
+N  n  0.1351
+K  n  0.2393
+T  n  0.2076
+R  n  0.1299
+I  n  0.1513
+D  n  0.1394
+E  n  0.2248
+A  n  0.2161
+N  n  0.4329
+Q  n  0.4292
+R  n  0.3957
+A  b  0.5747
+T  n  0.4550
+K  n  0.4450
+M  n  0.3399
+L  n  0.3037
+G  n  0.1473
+S  n  0.1186
+G  n  0.1647
+END

@@ -1,0 +1,4 @@
+Peptide-Binding Residue Prediction
+AUTHOR PBRpredict: Sumaiya Iqbal and Md Tamjidul Hoque, Output: FASTA, Strict, Moderate and Flexible prediction output and Summary
+b: peptide-binding (probability: 0.5 - 1.0) and n: non-binding (probability: 0.0 - 0.5)
+TARGET: Q9H981-1

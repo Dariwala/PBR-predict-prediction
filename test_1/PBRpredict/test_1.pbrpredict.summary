@@ -1,0 +1,21 @@
+Peptide-Binding Residue Prediction
+AUTHOR PBRpredict: Sumaiya Iqbal and Md Tamjidul Hoque, Output: FASTA, Strict, Moderate and Flexible prediction output and Summary
+b: peptide-binding (probability: 0.5 - 1.0) and n: non-binding (probability: 0.0 - 0.5)
+TARGET: test_1
+
+>FASTA
+ENEMDENLEQVSGIIGNLRHMALDMGNEIDTQNRQIDRIMEKADSNKTRIDEANQRATKMLGSG
+>Strict PBRpredict
+nnnnnnnnnnnnnnnnnnnnnbbnnbbbbbbbbbbbbbnbnnnnnnnnnnnnnnnnbnnnnnnn
+>Moderate PBRpredict
+nnnbbbbbnnnnnnnnnnbbbbbbbbbbbbbbbbbbbbbbnnbbnnnnnnnnnbbbbbbbbnnn
+>Flexible PBRpredict
+nnbbbbbbbnnnnnnnbbbbbbbbbbbbbbbbbbbbbbbbbbbbbnbbnnnbbbbbbbbbbbnb
+
+SUMMARY
+=======
+Sequence Length: 64
+Strict  : Peptide-binding residue count = 17, Peptide-binding residue probability (mean) = 0.707412, Full sequence probability (mean) = 0.377548
+Moderate: Peptide-binding residue count = 37, Peptide-binding residue probability (mean) = 0.708475, Full sequence probability (mean) = 0.532701
+Flexible: Peptide-binding residue count = 50, Peptide-binding residue probability (mean) = 0.698240, Full sequence probability (mean) = 0.624776
+
